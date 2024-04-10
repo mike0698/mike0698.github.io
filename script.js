@@ -21,7 +21,6 @@ changeImage(); // Start the image cycling
 const gifPaths = [
   "space.gif",
   "pipes.gif",
-  "xpload.gif",
   "98.gif"
 ];
 
