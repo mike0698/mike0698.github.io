@@ -16,3 +16,22 @@ function getRandomImage() {
  }
 
 changeImage(); // Start the image cycling
+
+
+const gifPaths = [
+  "space.gif",
+  "pipes.gif",
+  "xpload.gif",
+  "98.gif"
+];
+
+let currentGifIndex = 0;
+
+function changeBackground() {
+  const backgroundElement = document.querySelector(".background");
+  backgroundElement.style.backgroundImage = `url(${gifPaths[currentGifIndex]})`;
+  currentGifIndex = (currentGifIndex + 1) % gifPaths.length;
+}
+
+changeBackground(); // Initial background set
+setInterval(changeBackground, 3000);
