@@ -1,0 +1,12 @@
+body {
+  /* Optional: Set a background color in case the GIF fails to load */
+  background-color: #ddd;
+
+  /* Set the GIF as the background image */
+  background-image: url("space.gif");
+
+  /* Control how the GIF is displayed (optional) */
+  background-repeat: repeat;  /* Prevent repeating the GIF */
+  background-position: center;  /* Center the GIF */
+  background-size: cover;       /* Stretch the GIF to cover the viewport */
+}
