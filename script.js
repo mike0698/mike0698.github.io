@@ -21,7 +21,7 @@ changeImage(); // Start the image cycling
 const gifPaths = [
   "98screen.gif",
   "pipes.gif",
-  "space.gif",
+  "space.gif"
 ];
 
 let currentGifIndex = 0;
