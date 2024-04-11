@@ -13,3 +13,85 @@ body {
   background-repeat: repeat;
   z-index: -1; 
 }
+
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure loader is on top */
+}
+
+#loader img {
+  object-fit: cover; 
+  width: 100%; 
+}
+
+h1 {
+      font-family: "courier", "Courier New", monospace;  /* Try different fonts for a hacker-like style */
+      color: gold;
+      text-align: center;  /* Center align the text */
+	  font-size: 80px; 
+}
+
+#rsvp {
+      font-family: "Comic Sans MS", "Comic Sans", cursive;  /* Try different fonts for a hacker-like style */
+      color: white;
+      text-align: center;  /* Center align the text */
+	  font-size: 95px; 
+}
+
+/* Target
+
+/* Target the div and inherit styles from h1 using the `inherit` keyword */
+#flashingText {
+  font-family: "courier", "Courier New", monospace;  /* Try different fonts for a hacker-like style */
+      color: gold;
+      text-align: center;  /* Center align the text */
+	  font-size: 80px; 
+}
+
+#flashingText2 {
+  font-family: "courier", "Courier New", monospace;  /* Try different fonts for a hacker-like style */
+      color: gold;
+      text-align: center;  /* Center align the text */
+	  font-size: 80px; 
+}
+
+
+.scrolling-text {
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide overflowing content */
+  animation: scrollText 10s linear infinite; /* Animation name, duration, timing function, number of iterations */
+}
+
+@keyframes scrollText {
+  from { transform: translateX(0); } /* Start from the left */
+  to { transform: translateX(-100%); } /* Move to the right (adjust for text length) */
+}
+
+
+
+    h2 {
+      font-family: "courier", "Courier New", monospace;  /* Try different fonts for a hacker-like style */
+      color: white;
+      text-align: center;  /* Center align the text */
+	  font-size: 50px;
+    }
+    h3 {
+      font-family: "courier", "Courier New", monospace;  /* Try different fonts for a hacker-like style */
+      color: white;
+	  font-size: 30px; 
+      text-align: center;  /* Center align the text */
+    }
+  .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
+  }
