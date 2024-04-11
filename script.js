@@ -19,9 +19,9 @@ changeImage(); // Start the image cycling
 
 
 const gifPaths = [
-  "space.gif",
+  "98screen.gif",
   "pipes.gif",
-  "98.gif"
+  "space.gif",
 ];
 
 let currentGifIndex = 0;
@@ -33,7 +33,7 @@ function changeBackground() {
 }
 
 changeBackground(); // Initial background set
-setInterval(changeBackground, 3000);
+setInterval(changeBackground, 6000);
 
 window.onload = function() {
   const loader = document.getElementById("loader");
