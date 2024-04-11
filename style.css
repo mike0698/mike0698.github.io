@@ -40,7 +40,7 @@ h1 {
 }
 
 #rsvp {
-      font-family: "Comic Sans MS", "Comic Sans";  /* Try different fonts for a hacker-like style */
+      font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;  /* Try different fonts for a hacker-like style */
       color: white;
       text-align: center;  /* Center align the text */
 	  font-size: 95px; 
